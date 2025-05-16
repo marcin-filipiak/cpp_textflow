@@ -1,0 +1,5 @@
+Package: textflow
+Version: 0.1
+Architecture: all
+Maintainer: Marcin Filipiak <marcin@filipiak.cc>
+Description: simple text editor
