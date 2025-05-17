@@ -1,7 +1,6 @@
-ala ma kota ala ma kota ala ma kota ala ma kota
-inny kolejny test ala ma kotaty
-a tu na poczatku ala ma kota i na koniec tekstu
-la ma koteczka
+ala ma kota ma kota ala ma kota ala ma kota ala ma kota
+inny kolejny test ala ma kota, a ty?
+a tu na poczatku ala ma kota i na koniec tekstu ala ma koteczka
 
 - ala ma kotaala ma kota 
 - ala ma kotaala ma kota
