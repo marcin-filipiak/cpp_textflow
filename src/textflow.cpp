@@ -176,6 +176,19 @@ void setMessageColor(bool success) {
 }
 
 /**
+ * Display usage info
+ */
+void printUsage(const char* programName) {
+    std::cout << "Program: TextFlow\n";
+    std::cout << "Author: Marcin Filipiak\n";
+    std::cout << "Description: This program processes the file given as an argument.\n\n";
+    std::cout << "Usage:\n";
+    std::cout << "  " << programName << " <filename>\n\n";
+    std::cout << "Example:\n";
+    std::cout << "  " << programName << " data.txt\n";
+}
+
+/**
  * Display status/info message
  */
 void showMessage(const std::string& message, int height, bool success) {
@@ -189,7 +202,7 @@ void showMessage(const std::string& message, int height, bool success) {
 
 int main(int argc, char* argv[]) {
     if (argc != 2) {
-        std::cerr << "Usage: " << argv[0] << " <filename>" << std::endl;
+        printUsage(argv[0]);
         return 1;
     }
 
